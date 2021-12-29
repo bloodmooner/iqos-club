@@ -31,6 +31,15 @@
 @import 'blocks/checkout/__btn/checkout__btn';
 @import 'blocks/checkout/__cards-text/checkout__cards-text';
 
+@import 'blocks/social/social';
+@import 'blocks/social/__title/social__title';
+@import 'blocks/social/__sign/social__sign';
+@import 'blocks/social/__sign-list/social__sign-list';
+@import 'blocks/social/__sign-link/social__sign-link';
+@import 'blocks/social/__sign-icon/social__sign-icon';
+@import 'blocks/social/__sign-caption/social__sign-caption';
+@import 'blocks/social/__wrapper/social__wrapper';
+
 
 *, *:before, *:after {
   box-sizing: inherit;
