@@ -3,6 +3,14 @@
   &__sign-icon {
     width: 30px;
     height: 30px;
+    path {
+      fill: #765151;
+    }
+    &:hover {
+      path {
+        fill: #946565;
+      }
+    }
     @include for-phone {
       width: 17px;
       height: 17px;
