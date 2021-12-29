@@ -8,6 +8,14 @@
 @import 'blocks/header/header';
 @import 'blocks/header/__wrapper/header__wrapper';
 
+@import 'blocks/promo/promo';
+@import 'blocks/promo/__wrapper/promo__wrapper';
+@import 'blocks/promo/__title/promo__title';
+@import 'blocks/promo/__subtitle/promo__subtitle';
+@import 'blocks/promo/__logo/promo__logo';
+@import 'blocks/promo/__more/promo__more';
+@import 'blocks/promo/__arrow/promo__arrow';
+
 
 *, *:before, *:after {
   box-sizing: inherit;
