@@ -1,0 +1,14 @@
+.faq {
+
+  &__caption {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #404040;
+    &_active {
+      font-weight: bold;
+    }
+  }
+
+}

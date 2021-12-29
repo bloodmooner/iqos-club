@@ -40,6 +40,14 @@
 @import 'blocks/social/__sign-caption/social__sign-caption';
 @import 'blocks/social/__wrapper/social__wrapper';
 
+@import 'blocks/faq/faq';
+@import 'blocks/faq/__wrapper/faq__wrapper';
+@import 'blocks/faq/__items/faq__items';
+@import 'blocks/faq/__title/faq__title';
+@import 'blocks/faq/__item/faq__item';
+@import 'blocks/faq/__caption/faq__caption';
+@import 'blocks/faq/__text/faq__text';
+
 
 *, *:before, *:after {
   box-sizing: inherit;
