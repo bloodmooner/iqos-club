@@ -1,0 +1,47 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/mixins';
+@import 'base/animations';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+input, button, textarea {
+  outline: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
