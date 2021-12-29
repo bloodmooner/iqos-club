@@ -9,5 +9,9 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    @include for-tablet {
+      font-size: 36px;
+      line-height: 64px;
+    }
   }
 }

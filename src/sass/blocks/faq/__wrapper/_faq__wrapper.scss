@@ -2,6 +2,9 @@
 
   &__wrapper {
     padding: 48px 0 392px 0;
+    @include for-tablet {
+      padding: 48px 36px 43px 36px;
+    }
   }
 
 }

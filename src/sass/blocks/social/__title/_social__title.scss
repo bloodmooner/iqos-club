@@ -10,7 +10,10 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #765151;
-
+    @include for-tablet {
+      width: 100%;
+      padding: 0 23px;
+    }
   }
 
 }

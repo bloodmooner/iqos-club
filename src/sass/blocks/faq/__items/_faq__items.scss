@@ -4,6 +4,9 @@
     width: 1180px;
     margin: 35px auto 0 auto;
     border-top: 1px solid #ADADAD;
+    @include for-tablet {
+      width: 100%;
+    }
   }
 
 }

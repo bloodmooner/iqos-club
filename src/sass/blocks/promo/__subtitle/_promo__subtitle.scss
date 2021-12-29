@@ -8,6 +8,10 @@
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
+    @include for-tablet {
+      font-size: 28px;
+      line-height: 38px;
+    }
   }
 
 }
