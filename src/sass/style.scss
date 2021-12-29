@@ -16,6 +16,11 @@
 @import 'blocks/promo/__more/promo__more';
 @import 'blocks/promo/__arrow/promo__arrow';
 
+@import 'blocks/info/info';
+@import 'blocks/info/__wrapper/info__wrapper';
+@import 'blocks/info/__title/info__title';
+@import 'blocks/info/__text/info__text';
+
 
 *, *:before, *:after {
   box-sizing: inherit;
