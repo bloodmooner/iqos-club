@@ -5,6 +5,7 @@
     width: 25px;
     height: 25px;
     z-index: 10;
+    cursor: pointer;
     @include for-phone {
       margin-top: 10px;
       width: 9px;
