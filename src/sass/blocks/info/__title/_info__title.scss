@@ -10,6 +10,10 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #765151;
+    @include for-phone {
+      font-size: 14px;
+      line-height: 19px;
+    }
   }
 
 }

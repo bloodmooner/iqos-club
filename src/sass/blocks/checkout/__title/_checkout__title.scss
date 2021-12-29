@@ -12,5 +12,10 @@
     @include for-tablet {
       width: 483px;
     }
+    @include for-phone {
+      width: 100%;
+      font-size: 14px;
+      line-height: 19px;
+    }
   }
 }

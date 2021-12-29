@@ -1,5 +1,11 @@
 .social {
 
   &__sign-icon {
+    width: 30px;
+    height: 30px;
+    @include for-phone {
+      width: 17px;
+      height: 17px;
+    }
   }
 }

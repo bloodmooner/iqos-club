@@ -12,6 +12,11 @@
     letter-spacing: 1.29565px;
     text-transform: uppercase;
     color: #765151;
+    @include for-phone {
+      font-size: 10px;
+      line-height: 13px;
+      padding: 16px 3px;
+    }
   }
 
 }

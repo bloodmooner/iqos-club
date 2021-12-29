@@ -6,6 +6,11 @@
     font-size: 20px;
     line-height: 27px;
     color: #404040;
+    @include for-phone {
+      font-size: 12px;
+      line-height: 15px;
+      margin-right: 30px;
+    }
     &_active {
       font-weight: bold;
     }

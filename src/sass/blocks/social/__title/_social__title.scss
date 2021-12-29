@@ -14,6 +14,11 @@
       width: 100%;
       padding: 0 23px;
     }
+    @include for-phone {
+      width: 100%;
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 
 }

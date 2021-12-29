@@ -8,6 +8,11 @@
     line-height: 150%;
     color: #6E6E6E;
     margin-right: 70px;
+    @include for-phone {
+      font-size: 9px;
+      line-height: 12px;
+      color: #8E8E8E;
+    }
   }
 
 }

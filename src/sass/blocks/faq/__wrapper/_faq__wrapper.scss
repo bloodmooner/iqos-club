@@ -5,6 +5,9 @@
     @include for-tablet {
       padding: 48px 36px 43px 36px;
     }
+    @include for-phone {
+      padding: 34px 14px 34px 16px;
+    }
   }
 
 }

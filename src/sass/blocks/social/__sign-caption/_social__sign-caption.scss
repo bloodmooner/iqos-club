@@ -7,6 +7,10 @@
     line-height: 33px;
     letter-spacing: 1.77947px;
     color: #765151;
+    @include for-phone {
+      font-size: 14px;
+      line-height: 19px;
+    }
   }
 
 }

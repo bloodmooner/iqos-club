@@ -11,6 +11,12 @@
     line-height: 130%;
     letter-spacing: 3.46589px;
     color: #F0E3DF;
+    @include for-phone {
+      margin-top: 23px;
+      padding: 7px 21px;
+      font-size: 12px;
+      line-height: 16px;
+    }
     &:hover {
       color: #f0e3df;
       text-decoration: none;

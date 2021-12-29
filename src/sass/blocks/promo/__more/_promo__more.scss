@@ -7,5 +7,10 @@
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
+    @include for-phone {
+      margin-top: 89px;
+      font-size: 10px;
+      line-height: 13px;
+    }
   }
 }

@@ -10,6 +10,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    @include for-phone {
+      padding: 25px 0 10px 0;
+    }
   }
 
 }

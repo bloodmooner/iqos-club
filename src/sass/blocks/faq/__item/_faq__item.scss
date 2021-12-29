@@ -3,6 +3,9 @@
   &__item {
     position: relative;
     padding: 24px 0 25px 0;
+    @include for-phone {
+      padding: 8px 0 15px 0;
+    }
     &::before {
       content: '';
       position: absolute;

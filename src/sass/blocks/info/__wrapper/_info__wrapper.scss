@@ -4,6 +4,10 @@
     padding: 39px 0;
     width: 504px;
     margin: 0 auto;
+    @include for-phone {
+      width: 100%;
+      padding: 16px 0;
+    }
   }
 
 }

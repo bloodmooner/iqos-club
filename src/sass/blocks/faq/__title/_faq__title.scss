@@ -10,6 +10,10 @@
     @include for-tablet {
       font-size: 24px;
     }
+    @include for-phone {
+      font-size: 20px;
+      line-height: 27px;
+    }
   }
 
 }
