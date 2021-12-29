@@ -1,0 +1,11 @@
+.checkout {
+
+  &__cards-item {
+    width: 268px;
+    background: #FFFFFF;
+    margin-left: 24px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

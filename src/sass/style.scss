@@ -21,6 +21,16 @@
 @import 'blocks/info/__title/info__title';
 @import 'blocks/info/__text/info__text';
 
+@import 'blocks/checkout/checkout';
+@import 'blocks/checkout/__wrapper/checkout__wrapper';
+@import 'blocks/checkout/__title/checkout__title';
+@import 'blocks/checkout/__cards/checkout__cards';
+@import 'blocks/checkout/__cards-title/checkout__cards-title';
+@import 'blocks/checkout/__cards-item/checkout__cards-item';
+@import 'blocks/checkout/__cards-image/checkout__cards-image';
+@import 'blocks/checkout/__btn/checkout__btn';
+@import 'blocks/checkout/__cards-text/checkout__cards-text';
+
 
 *, *:before, *:after {
   box-sizing: inherit;
