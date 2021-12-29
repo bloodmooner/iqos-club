@@ -11,5 +11,9 @@
     line-height: 130%;
     letter-spacing: 3.46589px;
     color: #F0E3DF;
+    &:hover {
+      color: #f0e3df;
+      text-decoration: none;
+    }
   }
 }
