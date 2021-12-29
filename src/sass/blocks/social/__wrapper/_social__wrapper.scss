@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include for-tablet {
+      padding: 48px 23px;
+    }
     @include for-phone {
       padding: 16px 20px;
     }
