@@ -8,6 +8,9 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 10;
+    @include for-tablet {
+      margin-top: 263px;
+    }
     @include for-phone {
       margin-top: 89px;
       font-size: 10px;

@@ -1,5 +1,11 @@
 .header {
   &__wrapper {
-    min-height: 43px;
+    min-height: 90px;
+    @include for-tablet {
+      min-height: 115px;
+    }
+    @include for-phone {
+      min-height: 43px;
+    }
   }
 }

@@ -4,6 +4,9 @@
     padding: 39px 0;
     width: 504px;
     margin: 0 auto;
+    @include for-tablet {
+      padding: 48px 0;
+    }
     @include for-phone {
       width: 100%;
       padding: 16px 0;
