@@ -96,6 +96,7 @@ button::-moz-focus-inner {
 .ac {
   border: none;
   margin-top: 0;
+  background-color: transparent;
 }
 
 .ac-header {
@@ -108,6 +109,9 @@ button::-moz-focus-inner {
   font: normal 20px Noto Sans, sans-serif;
   color: #404040;
   border-bottom: 1px solid #ADADAD;
+  @include for-phone {
+    font: normal 12px Noto Sans, sans-serif;
+  }
 }
 
 .ac .ac-panel .ac-text {
