@@ -8,7 +8,9 @@
   <meta name="title" content="Portfolio - Sergey Goncharuk">
   <meta name="description" content="Portfolio - Sergey Goncharuk description">
 
-  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  <!-- Favicon  -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -26,8 +28,10 @@
 
 
 
-  <link rel="stylesheet" href="css/style.min.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.1.1/dist/accordion.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   <header class="header">
@@ -136,7 +140,100 @@
         <h2 class="faq__title">
           Остались вопросы?
         </h2>
-        <div class="faq__items">
+
+        <div class="accordion-container faq__items">
+          <div class="ac">
+              <h2 class="ac-header">
+                <button class="ac-trigger">Я слышал, что IQOS CLUB будет меняться. Что это значит?</button>
+              </h2>
+              <div class="ac-panel">
+                <div class="ac-text">
+                  <p class="faq__text">
+                    Мы услышали желание пользователей потратить свои баллы IQOS CLUB и для этого запустили в ноябре
+                    конкурсы «Баллы на удачу» и «Аукцион впечатлений». Но это еще не все! <br>
+                    Следите за новостями, чтобы быть в курсе и ничего не пропустить.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="ac">
+              <h2 class="ac-header">
+                <button class="ac-trigger">Что будет с моим уровнем лояльности?</button>
+              </h2>
+              <div class="ac-panel">
+                <div class="ac-text">
+                  <p class="faq__text">
+                    Мы услышали желание пользователей потратить свои баллы IQOS CLUB и для этого запустили в ноябре
+                    конкурсы «Баллы на удачу» и «Аукцион впечатлений». Но это еще не все! <br>
+                    Следите за новостями, чтобы быть в курсе и ничего не пропустить.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="ac">
+              <h2 class="ac-header">
+                <button class="ac-trigger">Что будет с моими накопленными баллами?</button>
+              </h2>
+              <div class="ac-panel">
+                <div class="ac-text">
+                  <p class="faq__text">
+                    Мы услышали желание пользователей потратить свои баллы IQOS CLUB и для этого запустили в ноябре
+                    конкурсы «Баллы на удачу» и «Аукцион впечатлений». Но это еще не все! <br>
+                    Следите за новостями, чтобы быть в курсе и ничего не пропустить.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          <div class="ac">
+            <h2 class="ac-header">
+              <button class="ac-trigger">Почему вы это делаете?</button>
+            </h2>
+            <div class="ac-panel">
+              <div class="ac-text">
+                <p class="faq__text">
+                  Мы услышали желание пользователей потратить свои баллы IQOS CLUB и для этого запустили в ноябре
+                  конкурсы «Баллы на удачу» и «Аукцион впечатлений». Но это еще не все! <br>
+                  Следите за новостями, чтобы быть в курсе и ничего не пропустить.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ac">
+              <h2 class="ac-header">
+                <button class="ac-trigger">Что будет с моими привилегиями?</button>
+              </h2>
+              <div class="ac-panel">
+                <div class="ac-text">
+                  <p class="faq__text">
+                    Мы услышали желание пользователей потратить свои баллы IQOS CLUB и для этого запустили в ноябре
+                    конкурсы «Баллы на удачу» и «Аукцион впечатлений». Но это еще не все! <br>
+                    Следите за новостями, чтобы быть в курсе и ничего не пропустить.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="ac">
+              <h2 class="ac-header">
+                <button class="ac-trigger">Мои ваучеры тоже сгорят?</button>
+              </h2>
+              <div class="ac-panel">
+                <div class="ac-text">
+                  <p class="faq__text">
+                    Мы услышали желание пользователей потратить свои баллы IQOS CLUB и для этого запустили в ноябре
+                    конкурсы «Баллы на удачу» и «Аукцион впечатлений». Но это еще не все! <br>
+                    Следите за новостями, чтобы быть в курсе и ничего не пропустить.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="faq__items">
           <div class="faq__item">
             <h3 class="faq__caption">
               Я слышал, что IQOS CLUB будет меняться. Что это значит?
@@ -172,7 +269,9 @@
               Мои ваучеры тоже сгорят?
             </h3>
           </div>
-        </div>
+        </div> -->
+
+
       </div>
 
     </div>
@@ -180,6 +279,7 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/accordion-js@3.1.1/dist/accordion.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

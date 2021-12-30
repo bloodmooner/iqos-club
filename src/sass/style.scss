@@ -88,3 +88,53 @@ button:active, button:focus {
 button::-moz-focus-inner {
   border: 0;
 }
+
+
+// Accordion styles
+
+.ac {
+  border: none;
+  margin-top: 0;
+}
+
+.ac-header {
+  /* border-bottom: 1px solid #D8E3FE; */
+}
+
+.ac .ac-trigger {
+  padding: 24px 0 25px 0;
+  position: relative;
+  font: normal 20px Noto Sans, sans-serif;
+  color: #404040;
+  border-bottom: 1px solid #ADADAD;
+}
+
+.ac .ac-panel .ac-text {
+  padding: 0;
+}
+
+.ac.is-active>.ac-header .ac-trigger {
+  font-weight: 700;
+}
+
+.ac.is-active>.ac-header .ac-trigger::before {
+  content: url('../assets/svg/faq-up.svg');
+  position: absolute;
+  right: 0;
+}
+
+.ac .ac-trigger::before {
+  content: url('../assets/svg/faq-down.svg');
+  position: absolute;
+  right: 0;
+}
+
+.ac.is-active>.ac-header .ac-trigger::after {
+  content: '';
+  display: none;
+}
+
+.ac .ac-trigger::after {
+  content: '';
+  display: none;
+}
