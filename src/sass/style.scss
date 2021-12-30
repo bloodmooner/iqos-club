@@ -116,6 +116,12 @@ button::-moz-focus-inner {
 
 .ac .ac-panel .ac-text {
   padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  @include for-phone {
+    font-size: 9px;
+    line-height: 12px;
+  }
 }
 
 .ac.is-active>.ac-header .ac-trigger {
